@@ -511,3 +511,8 @@
   })();
 
 }).call(this);
+
+
+$(document).ready(function(){
+  new WOW().init();
+});
